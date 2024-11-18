@@ -7,11 +7,6 @@ import struct
 import subprocess
 import time
 
-try:
-    from itertools import izip
-except ImportError:
-    izip = zip  # Py3
-
 from tests import PROJECT_ROOT
 
 STARTF_USESHOWWINDOW = getattr(subprocess, "STARTF_USESHOWWINDOW", 1)
@@ -191,7 +186,7 @@ def iter_rows(pil_image):
     :return: Yields rows.
     :rtype: tuple
     """
-    iterator = izip(*(iter(pil_image.getdata()),) * pil_image.width)
+    iterator = zip(*(iter(pil_image.getdata()),) * pil_image.width)
     yield from iterator
 
 
