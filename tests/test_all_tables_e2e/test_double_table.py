@@ -189,7 +189,6 @@ def test_windows_screenshot(tmpdir):
     # Generate script.
     script_template = dedent(
         """\
-    from __future__ import print_function
     import os, time
     from colorclass import Color, Windows
     from terminaltables3 import DoubleTable

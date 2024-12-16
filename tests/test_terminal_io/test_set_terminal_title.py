@@ -81,7 +81,6 @@ def test_windows_screenshot(tmpdir, mode):
     script_template = dedent(
         """\
     # coding: utf-8
-    from __future__ import print_function
     import os, time
     from terminaltables3.terminal_io import set_terminal_title
     stop_after = time.time() + 20
