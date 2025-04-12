@@ -12,5 +12,5 @@ AsciiTable is the simplest table. It uses ``+``, ``|``, and ``-`` characters to 
 API
 ===
 
-.. autoclass:: terminaltables.AsciiTable
+.. autoclass:: terminaltables3.AsciiTable
     :members: column_max_width, column_widths, ok, table_width, table

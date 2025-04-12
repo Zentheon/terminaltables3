@@ -20,7 +20,7 @@ Because there are no outer table borders:
 API
 ===
 
-.. autoclass:: terminaltables.GithubFlavoredMarkdownTable
+.. autoclass:: terminaltables3.GithubFlavoredMarkdownTable
     :members: column_max_width, column_widths, ok, table_width, table
 
 .. _bcho: https://github.com/Robpol86/terminaltables/pull/12
