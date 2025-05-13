@@ -19,7 +19,7 @@ between lines. Switching the font back to ``Lucida Console`` eliminates the gaps
 API
 ===
 
-.. autoclass:: terminaltables.SingleTable
+.. autoclass:: terminaltables3.SingleTable
     :members: column_max_width, column_widths, ok, table_width, table
 
 .. _box drawing characters: https://en.wikipedia.org/wiki/Box-drawing_character

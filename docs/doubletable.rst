@@ -26,7 +26,7 @@ gaps vertically between Unicode characters.
 API
 ===
 
-.. autoclass:: terminaltables.DoubleTable
+.. autoclass:: terminaltables3.DoubleTable
     :members: column_max_width, column_widths, ok, table_width, table
 
 .. _box drawing characters: https://en.wikipedia.org/wiki/Box-drawing_character
